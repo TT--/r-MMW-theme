@@ -47,3 +47,5 @@
 	.combined-search-page .search-result a, .combined-search-page .search-result a>mark, .combined-search-page .search-result .search-comments, 
 	.flairselector h2, .linefield .title, body .content .sitetable .link .title a:hover, .link .entry .tagline a:hover, .comment .author:hover {color: #24a0ed;}
 /* End  Addon: Custom Colors */
+
+div.titlebox span.number:after {content: " radiolarians";}
