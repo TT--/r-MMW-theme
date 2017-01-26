@@ -48,4 +48,22 @@
 	.flairselector h2, .linefield .title, body .content .sitetable .link .title a:hover, .link .entry .tagline a:hover, .comment .author:hover {color: #24a0ed;}
 /* End  Addon: Custom Colors */
 
+/* readers label */
 div.titlebox span.number:after {content: " radiolarians";}
+
+/* Credits below sidebar*/
+            .side:after {
+                color: #24A0ED;
+                content: "subreddit CSS based on /r/Naut";
+                font: 16px Lato, Arial, sans-serif;
+                position: absolute;
+                text-align: center;
+            }
+            
+/* footer */
+.footer-parent {
+                height: 0px;  /* footer img height */
+                margin-top: 0px;  /* was 192px */
+                padding: 0px 0 64px 0; /* was 528px 0 64px 0 */
+                /* background: url(%%footer%%) 50% 0 / cover no-repeat;  */
+            }
